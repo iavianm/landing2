@@ -1,0 +1,46 @@
+.content-wrapper {
+    display: flex;
+  }
+  
+  .content {
+    width: 80%;
+  }
+  
+  .text-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  
+  .content iframe {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  .content p {
+    line-height: 25px;
+    text-indent: 20px;
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 1em;
+  }
+  
+  @media (max-width: 1200px) {
+    .content iframe {
+      width: auto;
+    }
+  }
+
+  @media (max-width: 810px) {
+    .content-wrapper {
+      display: block;
+    }
+    .content {
+      width: 100%;
+    }
+    .content iframe {
+      width: 100%;
+    }
+  }

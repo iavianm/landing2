@@ -1,0 +1,44 @@
+.sidebar {
+    width: 20%;
+    margin-left: 10px;
+    background: #e3e4e8;
+    margin-bottom: 10px;
+  }
+  
+  .skils li {
+    padding: 10px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .skils li:hover {
+    transform: translateX(10px);
+  }
+
+  @media (max-width: 1200px) {
+    .sidebar {
+      height: auto;
+    }
+    .skils {
+      padding: 10px 0;
+      transition: transform .5s ease;
+      cursor: pointer;
+      margin-right: 0px;
+    }
+  }
+  
+  @media (max-width: 810px) {
+    .sidebar {
+      width: 100%;
+      margin-left: 0px;
+      background: #e3e4e8;
+      margin-bottom: 10px;
+    }
+    .skils li {
+      padding: 10px 0;
+      transition: transform .5s ease;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+  }

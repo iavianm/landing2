@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    height: 200px;
+}
+  
+.title-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  width: 80%;
+  height: 100%;
+  background: url(/images/C0VRsagUw-unsplash.jpg) no-repeat center center / cover;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.userpic { 
+  display: flex;
+  width: 20%;
+  height: 100%;
+  background: url(/images/dogimage2.jpg) no-repeat center center / cover;
+}
+
+@media (max-width: 1200px) {
+  .userpic {
+    min-width: 150px;
+  }
+}
